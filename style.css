@@ -1,0 +1,33 @@
+.main{
+    background-color: #E0E6E7;
+}
+
+h2{
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background: blue;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+}
+
+footer{
+    color: #586776;
+    background-color: #EAF0F1;
+    letter-spacing: 0.8px;
+}
+
+footer p{
+    margin: 0px;
+    font-size: 15px;
+}
+
+button:hover, h2:hover{
+    transform: scale(1.2);
+}
